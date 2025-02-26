@@ -1,4 +1,3 @@
-package template;
 
 /**
  *   model a PhonebookEntry 
@@ -10,7 +9,13 @@ package template;
  */
 
 class PhonebookEntry{
-
+	String type;
+	String number;
+	
+	public PhonebookEntry(String type, String number) {
+		this.type = type;
+		this.number = number;
+	}
  
 }
 	
